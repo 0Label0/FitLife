@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Footer Styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(31, 31, 31);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  letter-spacing: 3px;
+  line-height: 30px;
+  margin-top: 100px;
+}
+
+footer div {
+  margin-bottom: 15px;
+}
+
+nav.container-link {
+  display: flex;
+  gap: 40px;
+  margin-right: 30px;
+}
+
+/* Social Media Icons Styles */
+a.link-social-media {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  color: #333;
+  transition: color 0.3s, transform 0.3s;
+}
+
+a.link-social-media svg {
+  width: 40px;
+  height: 40px;
+}
+
+a.link-social-media:hover {
+  transform: scale(1.1); 
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+  }
+
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* General Header Style */
+
+header {
+  display: grid;
+}
+header nav {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  width: 100%;
+  transition: all .3s;
+  align-items: center;
+  background-color: rgba(31, 31, 31, 0.203);
+  transition: all .2s ease-in-out;
+
+
+}
+
+header nav:hover {
+  background-color: rgb(31, 31, 31);
+
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 7px;
+}
+
+.carrousel-header {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.carrousel-header .carrousel-item-header {
+  flex: 0 0 auto;
+  width: 100vw;
+  z-index: 0;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.carrousel-header .carrousel-item-header img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover; 
+}
+
+body {
+  object-fit: fill;
+}
+
+.hidden-nav-bar {
+  transform: translateY(-200px);
+  transition: transform 0.3s ease-in;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    padding: 10px 20px; 
+    background-color: rgba(31, 31, 31, 0.8);
+    height: 70px;
+  }
+
+  header nav a {
+    font-size: 14px;
+  }
+  header nav a img {
+    width: 50px;
+    height: 50px;
+  }
+}
