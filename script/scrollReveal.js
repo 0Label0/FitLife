@@ -25,7 +25,15 @@ $(function() {
     duration:700,
     interval: 50,
     opacity:0.5,
-    origin:'',
+    origin:'right',
     movile: true
   });
+
+   // Cuando carga la página devuelve al inicio, para evitar problemas en el scrollReveal
+   window.onload = () => {
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    }, 50)    
+  }
+
 });

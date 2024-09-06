@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 #testimonios {
-  margin-top: 300px;
+  margin-top: 100px;
 }
 
 .section-1 {
@@ -80,6 +80,39 @@ li {
 .img-card {
   border-radius: 2px;
 }
+
+.news {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  justify-content: center;
+  gap: 10px;
+  text-align: justify;
+ 
+}
+#news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+
+}
+.new-contain {
+  padding: 30px;
+  background-color: rgba(231, 231, 231, 0.251);
+  max-height: 800px;
+  overflow-y: scroll;
+}
+.news-title {
+  font-size: larger;
+
+}
+
+.news-description {
+  font-size: large;
+  line-height: 30px;
+}
+
+
 
 @media (max-width: 768px) {
   .section-1 h1 {
