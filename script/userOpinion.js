@@ -1,4 +1,4 @@
-(function() {
+$(function() {
 
   $.ajax({
     type: "GET",
@@ -26,4 +26,4 @@
     }
   });
 
-})();
+});

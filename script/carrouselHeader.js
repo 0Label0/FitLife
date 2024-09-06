@@ -12,10 +12,7 @@ $(function() {
     }, 8000);
   };
   
-  const stop = () => {
-    clearInterval(interval);
-  };
-  
+
   start();
 
 })

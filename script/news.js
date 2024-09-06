@@ -1,5 +1,5 @@
 
-(function() {
+$(function() {
   $.ajax({
     type: "GET",
     url: "/json/news.json",
@@ -20,4 +20,4 @@
       console.error('Error al cargar las noticias:', err);
     }
   });
-})();
+});
