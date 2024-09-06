@@ -2,7 +2,7 @@
 (function() {
   $.ajax({
     type: "GET",
-    url: "/news.json",
+    url: "/json/news.json",
     data: "json",
     dataType: "json",
     success: function (response) {
@@ -16,7 +16,7 @@
         $('#news-container').append(article);
       });
     },  
-    error: function(xhr, status, err) {
+    error: function(_, _, err) {
       console.error('Error al cargar las noticias:', err);
     }
   });

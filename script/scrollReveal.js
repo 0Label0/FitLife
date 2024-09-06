@@ -10,8 +10,8 @@ $(function() {
   });
 
   ScrollReveal().reveal('.reveal-2', {
-    delay:50,
-    distance:'500px',
+    delay:0,
+    distance:'1000px',
     duration:700,
     interval: 50,
     opacity:0.5,
@@ -20,8 +20,8 @@ $(function() {
   });
 
   ScrollReveal().reveal('.reveal-3', {
-    delay:50,
-    distance:'500px',
+    delay:0,
+    distance:'1000px',
     duration:700,
     interval: 50,
     opacity:0.5,
@@ -33,7 +33,7 @@ $(function() {
    window.onload = () => {
     setTimeout(() => {
       window.scrollTo(0, 0);
-    }, 50)    
-  }
+    }, 1)
+  };
 
 });
