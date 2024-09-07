@@ -90,6 +90,7 @@
 .img-mini-card:hover {
   transform: scale(1.05);
 }
+
 .arrow-container-left {
   cursor: pointer;
   text-align: end;

@@ -23,6 +23,9 @@ $(function() {
             <div class="name">${card.name}</div>
           </div>
         `);
+       
+
+        
         $('.galery-dinamic').append(dinamicGaleryItem);
         $('.card-container').append(galeryItem);
       });

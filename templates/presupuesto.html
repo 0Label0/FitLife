@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="../styles/main/presupuesto.css">
   <script src="https://unpkg.com/scrollreveal"></script>
   <script src="/assets/mods/jquery.js"></script>
+  <script src="/script/formValidation.js"></script>
+
 </head>
 <body>
   
@@ -19,19 +21,58 @@
       <a href="./presupuesto.html">Presupuesto</a>
       <a href="./contacto.html">Contacto</a>
     </nav>
-    <div class="carrousel-header">
-      <div class="carrousel-item-header"><img width="1600" height="1000" src="../assets/img/maquinas-2.png" alt="maquinas de gimnasio"></div>
-      <div class="carrousel-item-header"><img width="1600" height="1000" src="../assets/img/maquinas-1.png" alt="maquinas de gimnasio"></div>
-      <div class="carrousel-item-header"><img width="1600" height="1000" src="../assets/img/maquinas-3.png" alt="maquinas de gimnasio"></div>
-      <div class="carrousel-item-header"><img width="1600" height="1000" src="../assets/img/maquinas-4.png" alt="maquinas de gimnasio"></div>
-      <div class="carrousel-item-header"><img width="1600" height="1000" src="../assets/img/maquinas-5.png" alt="maquinas de gimnasio"></div>
-    </div>
-
   </header>
 
-  <main>
-    
+  <main class="form-container">
+    <form action="" method="get">
+      <div class="input-container">
+        <h4>Datos</h4>
+        <div class="input-data">
+          <input class="input-form" type="text" placeholder="name" id="name">
+          <input class="input-form" type="text" placeholder="apellidos" id="lastname"> 
+          <input class="input-form" type="tel" placeholder="telefóno" id="tel">
+          <input class="input-form" type="email" placeholder="email" id="email">
+        </div>
+        <h4>Presupuesto</h4>
+        <div class="input-presupuesto">
+          <label for="product">Elegir un producto</label>
+          <select id="product" name="product" required>
+
+          </select>
+          <label for="">En cuantos días desea recivir el producto?</label>
+          <input min="0" class="input-form" type="number" id="days">
+          <div style="display: flex; align-items: center; gap: 3px;">
+            <label for="custom-color">Color personalizado</label>
+            <input type="checkbox" name="custom-color" id="custom-color">
+            <label for="custom-tipography">Tipografía personalizada</label>
+            <input type="checkbox" name="custom-tipography" id="custom-tipography">
+          </div>
+          <div>
+            <label>Precio final:</label>
+            <strong id="final-price">3.50€</strong>
+          </div>
+
+        </div>
+
+        <div style="display: flex; align-items: center; gap: 3px; margin-top: 25px; flex-direction: column;">
+          <div style="display: flex; align-items: center; gap: 3px;">
+            <input type="checkbox" id="privacity-politic">
+            <label>Aceptas las políticas de privacidad</label>
+          </div>
+        
+          <p id="error-text"></p>
+
+        </div>
+       
+      </div>
+
+      <div class="btn-container">
+        <button class="btn-submit" type="submit">Enviar</button>
+      </div>
+    </form>  
   </main>
+
+
   <footer>
     <div>
       <p>Dirección: Calle Ficticia 123, Ciudad Imaginaria, País Inventado</p>
