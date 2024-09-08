@@ -78,7 +78,6 @@
   max-width: 90%;
   overflow-x: scroll;
   scrollbar-width: none; 
-  margin-top: 100px;
   transition: all .2s ease;
 }
 

@@ -122,7 +122,13 @@ li {
   display: flex;
   justify-content: center;
 }
-
+@media (max-width: 1300px) {
+  .news {
+    display: flex;
+    flex-direction: column;
+    
+  }
+}
 @media (max-width: 768px) {
   .section-1 h1 {
     font-size: 40px; 
@@ -148,5 +154,11 @@ li {
     width: 100%;
     height: auto; 
   }
+  .news {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
 }
 

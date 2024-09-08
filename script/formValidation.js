@@ -110,7 +110,16 @@ $(function(){
     e.preventDefault();
     
     if(totalValidate()) {
-      console.log('es válido')
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { x: 0.5, y: 0.5 }
+      });
+      console.log('Formulario completado!');
+      $('#error-text').text('Gracias por su compra!');
+      $('#error-text').css({
+        'color':'#0f0'
+      })
     }
     else{
       console.log('no válido');

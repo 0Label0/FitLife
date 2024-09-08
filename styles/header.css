@@ -57,7 +57,7 @@ header nav a:hover {
 
 .carrousel-header .carrousel-item-header img {
   width: 100%;
-  height: 100%;
+  height: 84vh;
   object-fit:cover; 
 }
 
