@@ -7,6 +7,7 @@ $(function() {
     dataType: "json",
     success: function (response) {
       response.forEach(card => {
+        // crea las cards de la galería (tienda) general
         const galeryItem = $(`
           <div class="card reveal">
             <div><img class="img-card" width="400" height="300" src="${card.image}" alt="${card.description}"></div>
@@ -17,6 +18,7 @@ $(function() {
             </div>
           </div>
         `);
+        // crea las minicard del carrousel de imágenes de arriba
         const dinamicGaleryItem = $(`
           <div class="mini-card">
             <div><img width="200" height="200" class="img-mini-card" src="${card.image}" alt="${card.description}"></div>

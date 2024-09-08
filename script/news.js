@@ -1,5 +1,6 @@
 
 $(function() {
+  // recoge las noticias y las muestra en pantalla
   $.ajax({
     type: "GET",
     url: "/json/news.json",
@@ -15,7 +16,8 @@ $(function() {
         `);
         $('#news-container').append(article);
       });
-    },  
+    },
+    // muetra el error en consola en caso de que haya
     error: function(_, _, err) {
       console.error('Error al cargar las noticias:', err);
     }

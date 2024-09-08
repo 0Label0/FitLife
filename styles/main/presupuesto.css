@@ -37,6 +37,7 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  width: 100%;
 }
 h4 {
   padding-top: 20px;

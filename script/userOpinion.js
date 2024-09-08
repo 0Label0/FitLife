@@ -6,6 +6,7 @@ $(function() {
     data: "data",
     dataType: "json",
     success: function (response) {
+      // se recogen los datos y comentarios de los clientes y se muestran a los usuarios
       response.forEach(opinion => {
         const card = $(`
            <div class= "user-opinion ${opinion.reveal}">

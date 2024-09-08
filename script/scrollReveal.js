@@ -1,4 +1,5 @@
 $(function() {
+  // hace la animación de abajo a arriba
   ScrollReveal().reveal('.reveal', {
     delay: 20,
     distance: '300px',
@@ -9,6 +10,7 @@ $(function() {
     mobile: true
   });
 
+  // de izquierda a derecha
   ScrollReveal().reveal('.reveal-2', {
     delay:0,
     distance:'1000px',
@@ -18,7 +20,8 @@ $(function() {
     origin:'left',
     movile: true
   });
-
+  
+  // de derecha a izquierda
   ScrollReveal().reveal('.reveal-3', {
     delay:0,
     distance:'1000px',

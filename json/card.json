@@ -12,5 +12,4 @@
   { "name": "Colchoneta de Yoga", "price": "18.00", "stock": 12, "image": "/assets/img/card-imgs/colchoneta.jpg", "description": "colchoneta de yoga" },
   { "name": "Ropa de Ciclismo", "price": "30.00", "stock": 7, "image": "/assets/img/card-imgs/ropaCiclismo.jpeg", "description": "ropa de clismo" },
   { "name": "Zapatillas Deportivas", "price": "50.00", "stock": 8, "image": "/assets/img/card-imgs/zapatillas.jpeg", "description": "zapatillas deportivas" }
-
 ]

@@ -59,8 +59,6 @@ $(function(){
 
   //------------------------------------------------//
 
- 
-
   $.ajax({
     type: "GET",
     url: "/json/card.json",
@@ -95,12 +93,10 @@ $(function(){
       total += parseFloat(selectedOption.data('price'));
     }
 
-    // Verificar si se ha marcado el checkbox de color personalizado
     if (customColor.is(':checked')) {
       total += 5; 
     }
 
-    // Verificar si se ha marcado el checkbox de tipografía personalizada
     if (customTipography.is(':checked')) {
       total += 3;
     }
