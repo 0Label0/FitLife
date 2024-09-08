@@ -3,7 +3,7 @@ $(function() {
   // recoge las noticias y las muestra en pantalla
   $.ajax({
     type: "GET",
-    url: "/json/news.json",
+    url: "./json/news.json",
     data: "json",
     dataType: "json",
     success: function (response) {

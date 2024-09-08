@@ -2,7 +2,7 @@ $(function() {
 
   $.ajax({
     type: "GET",
-    url: "/json/opinions.json",
+    url: "./json/opinions.json",
     data: "data",
     dataType: "json",
     success: function (response) {

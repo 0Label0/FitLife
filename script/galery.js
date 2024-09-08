@@ -2,7 +2,7 @@
 $(function() {
   $.ajax({
     type: "GET",
-    url: "/json/card.json",
+    url: "../json/card.json",
     data: "data",
     dataType: "json",
     success: function (response) {
