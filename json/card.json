@@ -1,15 +1,15 @@
 [
   
-  { "name": "Pesa 5kg", "price": "3.50", "stock": 14, "image": "/assets/img/card-imgs/pesa5kg.jpg", "description": "pesa 5kg" },
-  { "name": "Pesa 10kg", "price": "6.00", "stock": 8, "image": "/assets/img/card-imgs/pesa10kg.jpg", "description": "pesa 10kg" },
-  { "name": "Banda Elástica", "price": "12.00", "stock": 25, "image": "/assets/img/card-imgs/bandaElastica.jpg", "description": "banda elástica" },
-  { "name": "Mancuernas 1kg", "price": "5.00", "stock": 30, "image": "/assets/img/card-imgs/malcuernas.jpg", "description": "malcuernas de 1kg" },
-  { "name": "Mancuernas 2kg", "price": "7.00", "stock": 20, "image": "/assets/img/card-imgs/pesa2kg.jpg", "description": "malcuernas de 2kg" },
-  { "name": "Pelota de Yoga", "price": "15.00", "stock": 10, "image": "/assets/img/card-imgs/pelotaYoga.jpeg", "description": "pelota de yoga" },
-  { "name": "Ropa Deportiva", "price": "25.00", "stock": 5, "image": "/assets/img/card-imgs/ropaDeportiva1.jpeg", "description": "ropa deportiva" },
-  { "name": "Botellas de Agua", "price": "8.00", "stock": 50, "image": "/assets/img/card-imgs/botellaAguaDeportiva.jpeg", "description": "botella de agua deportiva" },
-  { "name": "Cuerda para Saltar", "price": "9.00", "stock": 15, "image": "/assets/img/card-imgs/comba.jpeg", "description": "comba" },
-  { "name": "Colchoneta de Yoga", "price": "18.00", "stock": 12, "image": "/assets/img/card-imgs/colchoneta.jpg", "description": "colchoneta de yoga" },
-  { "name": "Ropa de Ciclismo", "price": "30.00", "stock": 7, "image": "/assets/img/card-imgs/ropaCiclismo.jpeg", "description": "ropa de clismo" },
-  { "name": "Zapatillas Deportivas", "price": "50.00", "stock": 8, "image": "/assets/img/card-imgs/zapatillas.jpeg", "description": "zapatillas deportivas" }
+  { "name": "Pesa 5kg", "price": "3.50", "stock": 14, "image": "../assets/img/card-imgs/pesa5kg.jpg", "description": "pesa 5kg" },
+  { "name": "Pesa 10kg", "price": "6.00", "stock": 8, "image": "../assets/img/card-imgs/pesa10kg.jpg", "description": "pesa 10kg" },
+  { "name": "Banda Elástica", "price": "12.00", "stock": 25, "image": "../assets/img/card-imgs/bandaElastica.jpg", "description": "banda elástica" },
+  { "name": "Mancuernas 1kg", "price": "5.00", "stock": 30, "image": "../assets/img/card-imgs/malcuernas.jpg", "description": "malcuernas de 1kg" },
+  { "name": "Mancuernas 2kg", "price": "7.00", "stock": 20, "image": "../assets/img/card-imgs/pesa2kg.jpg", "description": "malcuernas de 2kg" },
+  { "name": "Pelota de Yoga", "price": "15.00", "stock": 10, "image": "../assets/img/card-imgs/pelotaYoga.jpeg", "description": "pelota de yoga" },
+  { "name": "Ropa Deportiva", "price": "25.00", "stock": 5, "image": "../assets/img/card-imgs/ropaDeportiva1.jpeg", "description": "ropa deportiva" },
+  { "name": "Botellas de Agua", "price": "8.00", "stock": 50, "image": "../assets/img/card-imgs/botellaAguaDeportiva.jpeg", "description": "botella de agua deportiva" },
+  { "name": "Cuerda para Saltar", "price": "9.00", "stock": 15, "image": "../assets/img/card-imgs/comba.jpeg", "description": "comba" },
+  { "name": "Colchoneta de Yoga", "price": "18.00", "stock": 12, "image": "../assets/img/card-imgs/colchoneta.jpg", "description": "colchoneta de yoga" },
+  { "name": "Ropa de Ciclismo", "price": "30.00", "stock": 7, "image": "../assets/img/card-imgs/ropaCiclismo.jpeg", "description": "ropa de clismo" },
+  { "name": "Zapatillas Deportivas", "price": "50.00", "stock": 8, "image": "../assets/img/card-imgs/zapatillas.jpeg", "description": "zapatillas deportivas" }
 ]
